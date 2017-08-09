@@ -30,7 +30,6 @@ export default{
   methods: {
     signup () {
       const self = this
-      const jwtHeader = {'Authorization': 'Bearer ' + localStorage.getItem('idToken')}
       if (self.password !== self.confirm) {
         console.log('error')
       } else {

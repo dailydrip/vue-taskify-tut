@@ -1,30 +1,27 @@
-# vue-todo
+# Taskify - a Vue To-do Demo application
 
-> A Vue.js project
+This is a simple To-Do application written as part of a Vue.js tutorial. This
+is intended to provide a broad overview of what a Vue.js SPA application can
+look like while using Webpack and vue-cli. 
 
-## Build Setup
+### Requirements
 
-``` bash
-# install dependencies
-npm install
+* [Node.js](https://nodejs.org/en/)
+* [npm](https://www.npmjs.com)
+* [yarn](https://yarnpkg.com)
+* [vue-koa-tut](https://github.com/projekt-matara/vue-koa-tut) - this is an 
+api built specifically to interact with this project. 
 
-# serve with hot reload at localhost:8080
-npm run dev
+First, you're going to want to install and run 
+[vue-koa-tut](https://github.com/projekt-matara/vue-koa-tut) in order to get 
+the most benefit from interacting with this code. 
 
-# build for production with minification
-npm run build
+### Installation and Running
 
-# build for production and view the bundle analyzer report
-npm run build --report
+1. ```cd /your/directory/of/choice```
+2. ```git clone https://github.com/projekt-matara/vue-taskify-tut.git```
+3. ```cd vue-taskify-tut```
+4. ```yarn install```
+5. ```npm run dev```
+6. ```you win :-)```
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
